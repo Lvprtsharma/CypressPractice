@@ -16,7 +16,7 @@ describe("Window Handling", () => {
 
     })
 
-    it('Approach 2: Using href', () => {
+    it('Approach 2: Using hreh', () => {
 
         cy.visit("https://the-internet.herokuapp.com/windows")
 
