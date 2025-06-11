@@ -1,5 +1,21 @@
 /// <reference types="cypress" />
 
+/**
+ * Example test suite demonstrating Cypress fundamentals with a todo application
+ * This comprehensive example shows various Cypress testing capabilities including:
+ * - Basic element selection and assertion
+ * - Form interactions and dynamic content
+ * - Test organization with describe, context, and it blocks
+ * - Common testing patterns and best practices
+ * 
+ * The test suite interacts with a sample todo application to demonstrate:
+ * - Viewing default todo items
+ * - Adding new todo items
+ * - Checking items as completed
+ * - Filtering todo items
+ * - Deleting completed items
+ */
+
 // Welcome to Cypress!
 //
 // This spec file contains a variety of sample tests

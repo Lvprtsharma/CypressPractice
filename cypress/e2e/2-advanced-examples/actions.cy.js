@@ -1,5 +1,23 @@
 /// <reference types="cypress" />
 
+/**
+ * Advanced example demonstrating Cypress DOM interaction commands
+ * This comprehensive test suite shows various ways to interact with DOM elements:
+ * 
+ * Key Features Demonstrated:
+ * - Type text into input fields with special characters and modifiers
+ * - Focus and blur events on elements
+ * - Form submissions and validations
+ * - Click operations (single, double, right-click)
+ * - Checkbox and radio button interactions
+ * - Select dropdown operations
+ * - Scroll and trigger commands
+ * - Force actions on hidden elements
+ * 
+ * Each test case includes detailed comments and links to Cypress documentation
+ * Visit https://on.cypress.io/interacting-with-elements for more information
+ */
+
 context('Actions', () => {
   beforeEach(() => {
     cy.visit('https://example.cypress.io/commands/actions')
